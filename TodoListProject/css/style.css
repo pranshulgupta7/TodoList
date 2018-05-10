@@ -1,0 +1,49 @@
+body{
+    background-color: #f4f6f9
+}
+.box{
+    background-color: white;
+    min-height: 90vh;
+    box-shadow: 10px 5px 5px #ccc;
+}
+.title{
+    border-bottom: solid 1px #bbb
+}
+
+.moveicon {
+    color: #0275d8;
+}
+
+.delete {
+    color: #d9534f;
+}
+
+.checkbox {
+    cursor: default;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+}
+
+.fas {
+    cursor: pointer;
+}
+
+#todo-list > li:hover .fa-times{
+    visibility: visible;
+}
+
+#todo-list > li .fa-times{
+    visibility: hidden;
+}
+
+#todo-list > li:first-child .fa-chevron-up{
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#todo-list > li:last-child .fa-chevron-down{
+    visibility: hidden;
+    pointer-events: none;
+}
